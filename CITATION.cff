@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use or cite this work, please credit it as below."
+title: "cinema-ai-toolkit"
+abstract: "Documentary filmmaker's AI toolkit — voice repair, VHS analysis, FCP workflows, OCR for handwritten documents. Built for real productions."
+type: software
+authors:
+  - given-names: "Ismaël"
+    family-names: "Joffroy Chandoutis"
+    website: "https://github.com/12georgiadis"
+repository-code: "https://github.com/12georgiadis/cinema-ai-toolkit"
+url: "https://github.com/12georgiadis/cinema-ai-toolkit"
+license: PolyForm-Noncommercial-1.0.0
