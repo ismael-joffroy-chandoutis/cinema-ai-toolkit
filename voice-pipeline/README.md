@@ -352,8 +352,8 @@ Respeecher's framework: Credit, Consent, Control, Compensation.
 ## Installation
 
 ```bash
-git clone https://github.com/12georgiadis/cinema-voice-pipeline
-cd cinema-voice-pipeline
+git clone https://github.com/ismael-joffroy-chandoutis/cinema-ai-toolkit
+cd cinema-ai-toolkit/voice-pipeline
 pip install -r requirements.txt
 
 pip install resemble-enhance   # Tier 0 — enhance all recordings first
@@ -365,6 +365,6 @@ Python 3.10+, ffmpeg. GPU recommended for Sesame CSM; Resemble Enhance and Seed-
 
 ---
 
-Part of the [ai-cinema-research](https://github.com/12georgiadis/ai-cinema-research) ecosystem.
+Part of the [ai-cinema-research](https://github.com/ismael-joffroy-chandoutis/ai-cinema-research) ecosystem.
 
-MIT License.
+See [LICENSE.md](../LICENSE.md) at the repo root (PolyForm Noncommercial 1.0.0).

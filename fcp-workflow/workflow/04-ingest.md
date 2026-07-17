@@ -77,7 +77,7 @@ Use **Fast Collections** to generate Smart Collections from keyword lists instan
 For documentary projects working with analog archives, there's a dedicated pipeline
 to semantically analyze footage with Gemini and export colored markers directly to FCP12.
 
-**→ [vhs-ai-pipeline](https://github.com/12georgiadis/vhs-ai-pipeline)**
+**→ [vhs-ai-pipeline](https://github.com/ismael-joffroy-chandoutis/vhs-ai-pipeline)**
 
 What it does:
 - Creates 480p 1fps proxies with burned-in timecodes (ffmpeg)

@@ -72,4 +72,4 @@ Inspired by [Chris Hocking](https://github.com/latenitefilms) / [FCP Cafe](https
 
 ## License
 
-MIT
+See [LICENSE.md](../LICENSE.md) at the repo root (PolyForm Noncommercial 1.0.0).

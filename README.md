@@ -1,3 +1,5 @@
+**English** · [Français](README.fr.md)
+
 <p align="center">
   <img src="header-banner.jpg" alt="Cinema AI Toolkit" width="100%"/>
 </p>
@@ -8,7 +10,7 @@
 
 Built for real productions, not demos.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm_Noncommercial-yellow.svg)](LICENSE.md)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
 ![Gemini](https://img.shields.io/badge/Gemini_3_Flash-API-4285F4?style=flat-square&logo=google)
 ![Final Cut Pro](https://img.shields.io/badge/Final_Cut_Pro-12-purple?style=flat-square)
@@ -120,4 +122,4 @@ cd vhs-pipeline && pip install -r requirements.txt
 
 ---
 
-**Consolidated from:** [cinema-voice-pipeline](https://github.com/12georgiadis/cinema-voice-pipeline) · [vhs-ai-pipeline](https://github.com/12georgiadis/vhs-ai-pipeline) · [fcp-auteur-workflow](https://github.com/12georgiadis/fcp-auteur-workflow) · [prison-writing-analyzer](https://github.com/12georgiadis/prison-writing-analyzer)
+**Consolidated from:** [cinema-voice-pipeline](https://github.com/ismael-joffroy-chandoutis/cinema-voice-pipeline) · [vhs-ai-pipeline](https://github.com/ismael-joffroy-chandoutis/vhs-ai-pipeline) · [fcp-auteur-workflow](https://github.com/ismael-joffroy-chandoutis/fcp-auteur-workflow) · [prison-writing-analyzer](https://github.com/ismael-joffroy-chandoutis/prison-writing-analyzer)

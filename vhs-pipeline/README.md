@@ -277,4 +277,4 @@ the pipeline deletes every file after each API call.
 
 ## License
 
-MIT
+See [LICENSE.md](../LICENSE.md) at the repo root (PolyForm Noncommercial 1.0.0).

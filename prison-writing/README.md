@@ -157,7 +157,7 @@ output/
 
 ## Architecture
 
-Two-pass pipeline, mirrors the [VHS Analyzer](https://github.com/yourusername/vhs-analyzer) architecture:
+Two-pass pipeline, mirrors the [VHS Pipeline](../vhs-pipeline/) architecture:
 - Progress tracking (resume after interruption)
 - Exponential retry (15s / 45s / 120s)
 - Flash pass + Pro recheck for difficult images
@@ -167,4 +167,4 @@ Two-pass pipeline, mirrors the [VHS Analyzer](https://github.com/yourusername/vh
 
 ## License
 
-MIT — built for documentary research, reusable for any corpus of photographed documents.
+See [LICENSE.md](../LICENSE.md) at the repo root (PolyForm Noncommercial 1.0.0). Built for documentary research, reusable for any corpus of photographed documents.
