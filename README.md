@@ -120,4 +120,4 @@ cd vhs-pipeline && pip install -r requirements.txt
 
 ---
 
-**Consolidated from:** [cinema-voice-pipeline](https://github.com/ismael-joffroy-chandoutis/cinema-voice-pipeline) · [vhs-ai-pipeline](https://github.com/ismael-joffroy-chandoutis/vhs-ai-pipeline) · [fcp-auteur-workflow](https://github.com/ismael-joffroy-chandoutis/fcp-auteur-workflow) · [prison-writing-analyzer](https://github.com/ismael-joffroy-chandoutis/prison-writing-analyzer)
+**Consolidated from:** cinema-voice-pipeline · vhs-ai-pipeline · [fcp-auteur-workflow](https://github.com/ismael-joffroy-chandoutis/fcp-auteur-workflow) · prison-writing-analyzer
