@@ -10,7 +10,7 @@ Construite pour de vraies productions, pas des démos.
 
 [![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm_Noncommercial-yellow.svg)](LICENSE.md)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
-![Gemini](https://img.shields.io/badge/Gemini_3_Flash-API-4285F4?style=flat-square&logo=google)
+![Vision LLM](https://img.shields.io/badge/Vision_LLM-API-4285F4?style=flat-square)
 ![Final Cut Pro](https://img.shields.io/badge/Final_Cut_Pro-12-purple?style=flat-square)
 
 ---
@@ -30,8 +30,8 @@ Quatre outils indépendants, un seul dépôt. Chacun a son propre README avec la
 ```
 cinema-ai-toolkit/
 ├── voice-pipeline/    # Réparation de voix pour sujets documentaires
-├── vhs-pipeline/      # Analyse VHS/Hi8/miniDV avec Gemini → marqueurs FCP
-├── fcp-workflow/       # Workflow d'auteur Final Cut Pro + intégration Claude Code
+├── vhs-pipeline/      # Analyse VHS/Hi8/miniDV avec un LLM de vision → marqueurs FCP
+├── fcp-workflow/       # Workflow d'auteur Final Cut Pro + intégration scripting agentique
 ├── prison-writing/    # OCR + analyse graphologique de documents manuscrits
 └── ETHICS.md          # Déclaration éthique pour les outils IA documentaires
 ```
@@ -55,10 +55,10 @@ ENREGISTREMENTS BRUTS → Débruitage → Isolation → Diarisation → Segmenta
 
 ### [VHS Pipeline](vhs-pipeline/)
 
-Analyse des heures d'archives analogiques (VHS, Hi8, miniDV, Super8) avec Gemini. Exporte des marqueurs colorés directement vers Final Cut Pro 12.
+Analyse des heures d'archives analogiques (VHS, Hi8, miniDV, Super8) avec un LLM de vision. Exporte des marqueurs colorés directement vers Final Cut Pro 12.
 
 ```
-Images d'archive → proxy ffmpeg → analyse Gemini → marqueurs colorés FCPXML → FCP 12
+Images d'archive → proxy ffmpeg → analyse par LLM de vision → marqueurs colorés FCPXML → FCP 12
 ```
 
 | Couleur du marqueur | Signification |
@@ -68,13 +68,13 @@ Images d'archive → proxy ffmpeg → analyse Gemini → marqueurs colorés FCPX
 | Bleu | Marqueur standard |
 | Vert | Glitch / artefact |
 
-**Stack :** Gemini 3 Flash, ffmpeg, FCPXML
+**Stack :** LLM de vision (rapide), ffmpeg, FCPXML
 
 ---
 
 ### [FCP Workflow](fcp-workflow/)
 
-Workflow de bout en bout pour le cinéma d'auteur avec Final Cut Pro, Claude Code et des outils open source.
+Workflow de bout en bout pour le cinéma d'auteur avec Final Cut Pro, scripting agentique et des outils open source.
 
 **Philosophie :** tout détourner. Local d'abord. Le texte brut est roi. Automatiser les tâches fastidieuses.
 
@@ -90,11 +90,11 @@ Pour chaque image :
 3. **Analyse graphologique** : pression, inclinaison, régularité, lisibilité
 4. **Extraction de données** : personnes, lieux, dates, thèmes, état émotionnel
 
-**Stack :** Gemini 3 Flash (principal) + Gemini 2.5 Pro (revérification en cas de faible confiance)
+**Stack :** LLM de vision rapide (principal) + LLM de vision haut de gamme (revérification en cas de faible confiance)
 
 | Modèle | Précision manuscrite | Coût |
 |-------|---------------------|------|
-| Gemini 3 Flash | ~90% | 0,50$/1M tokens |
+| LLM de vision (rapide) | ~90% | 0,50$/1M tokens |
 | GPT-5 | ~90%+ | $$$ |
 | Tesseract (local) | ~64% | Gratuit |
 

@@ -10,7 +10,7 @@ Built for real productions, not demos.
 
 [![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm_Noncommercial-yellow.svg)](LICENSE.md)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
-![Gemini](https://img.shields.io/badge/Gemini_3_Flash-API-4285F4?style=flat-square&logo=google)
+![Vision LLM](https://img.shields.io/badge/Vision_LLM-API-4285F4?style=flat-square)
 ![Final Cut Pro](https://img.shields.io/badge/Final_Cut_Pro-12-purple?style=flat-square)
 
 ---
@@ -30,8 +30,8 @@ Four independent tools, one repo. Each has its own README with full documentatio
 ```
 cinema-ai-toolkit/
 ├── voice-pipeline/    # Voice repair for documentary subjects
-├── vhs-pipeline/      # VHS/Hi8/miniDV analysis with Gemini → FCP markers
-├── fcp-workflow/       # Final Cut Pro auteur workflow + Claude Code integration
+├── vhs-pipeline/      # VHS/Hi8/miniDV analysis with a vision LLM → FCP markers
+├── fcp-workflow/       # Final Cut Pro auteur workflow + agentic scripting integration
 ├── prison-writing/    # OCR + graphological analysis for handwritten documents
 └── ETHICS.md          # Ethics statement for documentary AI tools
 ```
@@ -55,10 +55,10 @@ RAW RECORDINGS → Denoise → Isolate → Diarize → Segment → Normalize
 
 ### [VHS Pipeline](vhs-pipeline/)
 
-Analyze hours of analog archive footage (VHS, Hi8, miniDV, Super8) with Gemini. Export colored markers directly to Final Cut Pro 12.
+Analyze hours of analog archive footage (VHS, Hi8, miniDV, Super8) with a vision LLM. Export colored markers directly to Final Cut Pro 12.
 
 ```
-Archive footage → ffmpeg proxy → Gemini analysis → FCPXML colored markers → FCP 12
+Archive footage → ffmpeg proxy → vision LLM analysis → FCPXML colored markers → FCP 12
 ```
 
 | Marker Color | Meaning |
@@ -68,13 +68,13 @@ Archive footage → ffmpeg proxy → Gemini analysis → FCPXML colored markers 
 | Blue | Standard marker |
 | Green | Glitch / artifact |
 
-**Stack:** Gemini 3 Flash, ffmpeg, FCPXML
+**Stack:** Vision LLM (fast), ffmpeg, FCPXML
 
 ---
 
 ### [FCP Workflow](fcp-workflow/)
 
-A-to-Z workflow for auteur cinema with Final Cut Pro, Claude Code, and open source tools.
+A-to-Z workflow for auteur cinema with Final Cut Pro, agentic scripting, and open source tools.
 
 **Philosophy:** Hack everything. Local first. Plain text is king. Automate the boring parts.
 
@@ -90,11 +90,11 @@ For each image:
 3. **Graphological analysis** — pressure, slant, regularity, legibility
 4. **Data mining** — persons, locations, dates, themes, emotional state
 
-**Stack:** Gemini 3 Flash (primary) + Gemini 2.5 Pro (recheck low-confidence)
+**Stack:** fast vision LLM (primary) + high-tier vision LLM (recheck low-confidence)
 
 | Model | Handwriting accuracy | Cost |
 |-------|---------------------|------|
-| Gemini 3 Flash | ~90% | $0.50/1M tokens |
+| Vision LLM (fast) | ~90% | $0.50/1M tokens |
 | GPT-5 | ~90%+ | $$$ |
 | Tesseract (local) | ~64% | Free |
 
