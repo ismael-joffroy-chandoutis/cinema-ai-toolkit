@@ -1,8 +1,6 @@
-**English** · [Français](README.fr.md)
+<img src="banner.svg" alt="Cinema AI Toolkit" width="100%">
 
-<p align="center">
-  <img src="header-banner.jpg" alt="Cinema AI Toolkit" width="100%"/>
-</p>
+**English** · [Français](README.fr.md)
 
 # Cinema AI Toolkit
 
