@@ -66,7 +66,7 @@ assets/             # Diagrams, screenshots
 
 ## Credits
 
-Built by [Ismael Joffroy Chandoutis](https://ismaeljoffroychandoutis.com) with Claude Code (Opus 4.6).
+Built by [Ismael Joffroy Chandoutis](https://ismaeljoffroychandoutis.com).
 
 Inspired by [Chris Hocking](https://github.com/latenitefilms) / [FCP Cafe](https://fcp.cafe) / the Magic Lantern community / everyone who hacks their tools to make better art.
 
