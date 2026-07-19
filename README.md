@@ -8,6 +8,8 @@
 
 Built for real productions, not demos.
 
+<img src="monde.jpg" alt="cinema-ai-toolkit" width="100%">
+
 [![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/License-PolyForm_Noncommercial-yellow.svg)](LICENSE.md)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
 ![Vision LLM](https://img.shields.io/badge/Vision_LLM-API-4285F4?style=flat-square)
