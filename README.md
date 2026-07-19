@@ -33,7 +33,7 @@ Four independent tools, one repo. Each has its own README with full documentatio
 cinema-ai-toolkit/
 ├── voice-pipeline/    # Voice repair for documentary subjects
 ├── vhs-pipeline/      # VHS/Hi8/miniDV analysis with a vision LLM → FCP markers
-├── fcp-workflow/       # Final Cut Pro auteur workflow + agentic scripting integration
+├── fcp-workflow/      # Final Cut Pro auteur workflow + agentic scripting integration
 ├── prison-writing/    # OCR + graphological analysis for handwritten documents
 └── ETHICS.md          # Ethics statement for documentary AI tools
 ```

@@ -33,7 +33,7 @@ Quatre outils indépendants, un seul dépôt. Chacun a son propre README avec la
 cinema-ai-toolkit/
 ├── voice-pipeline/    # Réparation de voix pour sujets documentaires
 ├── vhs-pipeline/      # Analyse VHS/Hi8/miniDV avec un LLM de vision → marqueurs FCP
-├── fcp-workflow/       # Workflow d'auteur Final Cut Pro + intégration scripting agentique
+├── fcp-workflow/      # Workflow d'auteur Final Cut Pro + intégration scripting agentique
 ├── prison-writing/    # OCR + analyse graphologique de documents manuscrits
 └── ETHICS.md          # Déclaration éthique pour les outils IA documentaires
 ```
