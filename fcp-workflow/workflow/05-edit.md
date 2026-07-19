@@ -29,9 +29,9 @@
 ### Strategy for documentary
 1. Import Lumberjack logs (pre-rated, pre-keyworded)
 2. Use **Fast Collections** to create Smart Collections by character/theme
-3. Start with interview selects -- build the spoken narrative first
+3. Start with interview selects, build the spoken narrative first
 4. Layer B-roll, archive, graphics
-5. Don't polish -- just get the structure
+5. Don't polish, just get the structure
 
 ### Lumberjack Builder
 - **Text-driven editing**: read transcripts, select passages, build timeline from text

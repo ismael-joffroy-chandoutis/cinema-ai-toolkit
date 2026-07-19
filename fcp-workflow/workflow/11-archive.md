@@ -38,7 +38,7 @@
 
 ### Why FCPXML matters
 - FCPXML is the text representation of your FCP project
-- It's XML -- human-readable, diffable, version-controllable
+- It's XML, human-readable, diffable, version-controllable
 - You can track every edit decision in git
 
 ### Workflow

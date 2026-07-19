@@ -39,7 +39,7 @@ The backbone of a serious FCP workflow. Open source, actively maintained.
 | **Gyroflow Toolbox** | $$ | MAS | Best if you have gyro data. Works with BRAW Toolbox. |
 | **CoreMelt Lock & Load X** | $$ | Web | 4x faster than FCP built-in. Rolling shutter, batch processing. |
 | **CrumplePop BetterStabilizer** | $$ | Web | Presets: handheld walk, bike mount, car mount, etc. |
-| **FCP built-in stabilization** | Free | — | Good enough for simple cases. |
+| **FCP built-in stabilization** | Free | Built-in | Good enough for simple cases. |
 
 ---
 
@@ -47,7 +47,7 @@ The backbone of a serious FCP workflow. Open source, actively maintained.
 
 | Tool | Price | Source | Notes |
 |------|-------|--------|-------|
-| **FCP built-in** | Free | — | Color Wheels, Curves, Color Match, HDR. Solid basics. |
+| **FCP built-in** | Free | Built-in | Color Wheels, Curves, Color Match, HDR. Solid basics. |
 | **Color Finale 2** | $$$ | Web | Dedicated grading UI inside FCP. Secondaries, masks, tracking. |
 | **FilmConvert Nitrate** | $$$ | Web | Real film stock emulation with camera profiles. |
 | **Dehancer Pro** | $$$ | Web | Analog look: halation, bloom, grain, color. |
@@ -103,7 +103,7 @@ The backbone of a serious FCP workflow. Open source, actively maintained.
 
 | Tool | Price | Source | Notes |
 |------|-------|--------|-------|
-| **FCP 12 built-in** | Free | — | Transcript Search (all clips), Transcribe to Captions (English only). |
+| **FCP 12 built-in** | Free | Built-in | Transcript Search (all clips), Transcribe to Captions (English only). |
 | **Jojo Transcribe** | Free | MAS | Whisper V2/V3 Turbo. 100+ languages. Translation. Best free option. |
 | **MacWhisper** | Freemium | Web | Transcribe + translate simultaneously. Good UI for corrections. |
 | **Captionator** | $$ | MAS | Animated captions (YouTube/TikTok style). Per-word keyframing. |
@@ -165,7 +165,7 @@ The backbone of a serious FCP workflow. Open source, actively maintained.
 
 | Tool | Price | Source | Notes |
 |------|-------|--------|-------|
-| **FCP 12 Visual Search** | Free | — | Natural language search in footage. Apple Silicon. |
+| **FCP 12 Visual Search** | Free | Built-in | Natural language search in footage. Apple Silicon. |
 | **Jumper** (Witchcraft) | TBD | Web | AI footage search, 100% offline. Natural language queries. |
 | **ChatFCP** | TBD | Web | LLM integration in FCP. Workflow Extension. |
 | **Picture This...** | TBD | Web | Text-to-image generation from markers. Local ML. |

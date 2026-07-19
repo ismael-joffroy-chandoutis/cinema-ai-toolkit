@@ -2,7 +2,7 @@
 
 ## Philosophy
 
-Sound is half the film. Documentary sound especially: room tone, ambient noise, breath, hesitation -- these are as important as the words.
+Sound is half the film. Documentary sound especially: room tone, ambient noise, breath, hesitation, these are as important as the words.
 
 ## In FCP
 
@@ -42,7 +42,7 @@ Sound is half the film. Documentary sound especially: room tone, ambient noise, 
 
 ## Audio Restoration Tools
 
-### iZotope RX 11 — ★★★★★
+### iZotope RX 11 (★★★★★)
 - Industry standard audio restoration, nothing comes close
 - **Dialogue Isolate**: ML-based separation of voice from everything else
 - **Spectral Repair**: visually identify and remove specific sounds
@@ -54,43 +54,43 @@ Sound is half the film. Documentary sound especially: room tone, ambient noise, 
 - Process individual clips before editing, or apply in Pro Tools
 - For documentary: essential for interview rescue (bad rooms, unexpected noise)
 
-### Supertone Clear — ★★★★☆
+### Supertone Clear (★★★★☆)
 - ML-based de-reverb + de-noise, acquired by Adobe
 - Excellent on voice recordings, strong competitor to RX on specific tasks
 - Lighter and faster than RX for targeted voice cleanup
 
-### Acon Digital Extract:Dialogue — ★★★★☆
+### Acon Digital Extract:Dialogue (★★★★☆)
 - ML voice separation at a fraction of RX's price
 - Good alternative when you only need dialogue isolation
 - Won't replace RX's full spectral editing toolkit
 
 ### When to use what
-- **Quick fix in FCP**: CrumplePop (★★★★☆) — no roundtrip needed
-- **Serious restoration**: iZotope RX 11 (★★★★★) — spectral editing, complex problems
+- **Quick fix in FCP**: CrumplePop (★★★★☆), no roundtrip needed
+- **Serious restoration**: iZotope RX 11 (★★★★★), spectral editing, complex problems
 - **Budget voice separation**: Acon Extract:Dialogue (★★★★☆)
 - **Fast voice cleanup**: Supertone Clear (★★★★☆) or iZotope VEA (★★★☆☆)
 
 ## Mixing Plugins
 
-### Fabfilter Pro-Q 4 — ★★★★★
+### Fabfilter Pro-Q 4 (★★★★★)
 - Best EQ plugin available. Dynamic bands, mid/side, per-band spectrum
 - Essential for surgical dialogue cleanup: room resonances, proximity effect, sibilance
 - Visual spectral display makes problems obvious
 
-### Fabfilter Pro-L 2 — ★★★★★
+### Fabfilter Pro-L 2 (★★★★★)
 - Reference limiter for broadcast loudness (LUFS -23 EBU, -24 ATSC)
 - True peak limiting for streaming platforms
 - Use on final mix bus
 
-### Fabfilter Pro-DS — ★★★★☆
+### Fabfilter Pro-DS (★★★★☆)
 - Split-band de-esser, transparent on voice
 - More precise than RX de-ess for final mix stage
 
 ## Creative Sound Design
 
-### Soundtoys 5 — ★★★★★
+### Soundtoys 5 (★★★★★)
 - Distortion (Decapitator), delay (EchoBoy), modulation (PhaseMistress)
-- Not for restoration — for transforming sound, creating textures
+- Not for restoration, for transforming sound, creating textures
 - Useful for experimental documentary sound design
 
 ## Music

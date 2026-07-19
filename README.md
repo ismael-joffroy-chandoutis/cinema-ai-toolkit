@@ -4,7 +4,7 @@
 
 # Cinema AI Toolkit
 
-**Documentary filmmaker's AI toolkit — voice repair, VHS analysis, FCP workflows, OCR for handwritten documents.**
+**Documentary filmmaker's AI toolkit: voice repair, VHS analysis, FCP workflows, OCR for handwritten documents.**
 
 Built for real productions, not demos.
 
@@ -19,7 +19,7 @@ Built for real productions, not demos.
 
 ## Author
 
-[Ismaël Joffroy Chandoutis](https://ismaeljoffroychandoutis.com) — filmmaker and artist. **César 2022**, Cannes, IDFA, Hot Docs, Ars Electronica.
+[Ismaël Joffroy Chandoutis](https://ismaeljoffroychandoutis.com), filmmaker and artist. **César 2022**, Cannes, IDFA, Hot Docs, Ars Electronica.
 
 These tools were built during active production of feature documentaries. They solve problems I actually have.
 
@@ -44,7 +44,7 @@ cinema-ai-toolkit/
 
 ### [Voice Pipeline](voice-pipeline/)
 
-Voice direction for documentary filmmakers working with non-professional subjects. The subject's voice is authentic and irreplaceable — this pipeline repairs the performance, not the voice.
+Voice direction for documentary filmmakers working with non-professional subjects. The subject's voice is authentic and irreplaceable. This pipeline repairs the performance, not the voice.
 
 ```
 RAW RECORDINGS → Denoise → Isolate → Diarize → Segment → Normalize
@@ -65,7 +65,7 @@ Archive footage → ffmpeg proxy → vision LLM analysis → FCPXML colored mark
 
 | Marker Color | Meaning |
 |------|---------|
-| Red | Strong interest — must review |
+| Red | Strong interest, must review |
 | Orange | Narrative structure moment |
 | Blue | Standard marker |
 | Green | Glitch / artifact |
@@ -87,10 +87,10 @@ A-to-Z workflow for auteur cinema with Final Cut Pro, agentic scripting, and ope
 OCR + graphological analysis + data mining from photographs of handwritten documents and prison correspondence. Built for documentary research.
 
 For each image:
-1. **Transcription** — word-for-word OCR with illegibility markers
-2. **Classification** — letter, prison email, psychiatric report, legal document...
-3. **Graphological analysis** — pressure, slant, regularity, legibility
-4. **Data mining** — persons, locations, dates, themes, emotional state
+1. **Transcription**: word-for-word OCR with illegibility markers
+2. **Classification**: letter, prison email, psychiatric report, legal document...
+3. **Graphological analysis**: pressure, slant, regularity, legibility
+4. **Data mining**: persons, locations, dates, themes, emotional state
 
 **Stack:** fast vision LLM (primary) + high-tier vision LLM (recheck low-confidence)
 

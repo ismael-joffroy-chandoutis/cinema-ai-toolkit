@@ -42,7 +42,7 @@ Auteur cinema grading is about mood and meaning, not just "correct" color. The g
 ### Dehancer Pro
 - Analog film look: color, contrast, halation, bloom, grain, vignette
 - Based on measurements of real analog processes
-- More "artistic" than FilmConvert -- more control over individual analog effects
+- More "artistic" than FilmConvert, more control over individual analog effects
 
 ### LUT Robot (LateNite)
 - Automatically applies Camera LUTs by matching filenames

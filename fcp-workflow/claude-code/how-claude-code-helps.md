@@ -203,4 +203,4 @@ As LLMs get better at processing longer contexts and multimedia:
 
 ## The Philosophy
 
-The filmmaker makes the creative decisions. Claude Code handles everything that isn't a creative decision. The goal is to spend 90% of your time in the timeline making choices about story, rhythm, and emotion -- and 0% on file management, format conversion, metadata entry, or googling ffmpeg flags.
+The filmmaker makes the creative decisions. Claude Code handles everything that isn't a creative decision. The goal is to spend 90% of your time in the timeline making choices about story, rhythm, and emotion, and 0% on file management, format conversion, metadata entry, or googling ffmpeg flags.

@@ -3,7 +3,7 @@
 Analyze hours of archive footage with Gemini. Export structured markers to Final Cut Pro.
 
 Built for documentary filmmakers working with analog archives (VHS, Hi8, miniDV, Super8).
-No cloud storage of footage — Gemini only processes temporary proxy files, then deletes them.
+No cloud storage of footage. Gemini only processes temporary proxy files, then deletes them.
 
 ---
 
@@ -27,10 +27,10 @@ Each analyzed segment becomes a **colored marker** in FCP12:
 
 | Color | Meaning |
 |-------|---------|
-| 🔴 Red (to-do) | Strong interest — must review |
-| 🟠 Orange (chapter) | Narrative structure moment |
-| 🔵 Blue | Standard marker |
-| 🟢 Green | Glitch / artifact |
+| Red (to-do) | Strong interest, must review |
+| Orange (chapter) | Narrative structure moment |
+| Blue | Standard marker |
+| Green | Glitch / artifact |
 
 The marker note contains: scene description, behavioral observation, editorial interpretation,
 exact transcription if speech is present.
@@ -45,7 +45,7 @@ USB / local / NAS   →   created locally, kept
 READ ONLY               ~400MB / hour of footage
 
          │
-         ▼  Gemini Files API (temporary — deleted after each call)
+         ▼  Gemini Files API (temporary, deleted after each call)
          │
     Phase 1    gemini-2.5-flash        Pre-scan 3min sample per video
          │
@@ -81,7 +81,7 @@ Three-tier system. Use what you need:
 | MEDIUM | ~175 | ~1.5h | ~3h |
 | HIGH | ~263 | ~1h | ~2h |
 
-**Cost estimate — 12h of archive footage, all phases: ~$15-22**
+**Cost estimate (12h of archive footage, all phases): ~$15-22**
 
 ---
 
@@ -111,9 +111,9 @@ Three supported environments. All produce identical output.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Mac Mini M4 — headless server (recommended for long runs)
+### Mac Mini M4: headless server (recommended for long runs)
 
-Best setup: run on a dedicated machine via SSH. The pipeline can take hours —
+Best setup: run on a dedicated machine via SSH. The pipeline can take hours,
 tmux keeps it alive if the connection drops.
 
 ```
@@ -140,7 +140,7 @@ ssh user@mac-mini-ip
 tmux new -s analysis              # or: tmux attach -s analysis
 ls /Volumes/                      # verify USB is mounted
 python vhs_analyzer.py /Volumes/USB/footage
-# Ctrl+B then D to detach — run continues in background
+# Ctrl+B then D to detach, run continues in background
 ```
 
 ### macOS Desktop
@@ -184,7 +184,7 @@ python vhs_analyzer.py D:\footage\archive
 ## Usage
 
 ```bash
-# Dry run — list videos without processing
+# Dry run: list videos without processing
 python vhs_analyzer.py /footage --dry-run
 
 # Phase 1 only (pre-scan, cheap)
@@ -213,14 +213,14 @@ python vhs_analyzer.py /footage --retry-failed
 Edit `prompts.py` → `SYSTEM_DEEP_ANALYSIS`. Define:
 1. What you're looking for (behavioral signals, themes, patterns)
 2. Few-shot examples of what each signal looks like
-3. Keep the JSON schema — it drives the FCPXML export
+3. Keep the JSON schema, it drives the FCPXML export
 
 **Two-pass approach (recommended to avoid confirmation bias):**
 
 - **Blind pass** (`--blind`): No framework. "What does an editor who knows nothing see?"
   → Segments marked `strong` here become candidates for the deep pass
 - **Deep pass**: Your specific analytical grid, applied to everything
-- Results are merged by `tc_start` — the blind observation appears in the FCP marker note
+- Results are merged by `tc_start`, the blind observation appears in the FCP marker note
 
 ---
 
@@ -229,7 +229,7 @@ Edit `prompts.py` → `SYSTEM_DEEP_ANALYSIS`. Define:
 **FCP12:** File → Import → XML → your `.fcpxml`
 
 Each video gets its own project with colored markers. The marker note contains the full
-Gemini interpretation — visible in the FCP12 inspector when hovering a marker.
+Gemini interpretation, visible in the FCP12 inspector when hovering a marker.
 
 **[Jumper](https://jumper.com)** indexes FCP marker notes for semantic search.
 Our notes contain the full analysis text → Jumper can search across all analyzed footage
@@ -253,7 +253,7 @@ Family archive footage is mostly static scenes with fixed camera.
 ## Why burned-in timecodes?
 
 Gemini reads the timecode directly from the image (top left corner).
-This means accurate timestamps across chunk boundaries — no post-processing to reconcile
+This means accurate timestamps across chunk boundaries, no post-processing to reconcile
 relative times from different chunks.
 
 ---
@@ -270,7 +270,7 @@ reports/           One .md report per video.
 SYNTHESIS.md       Corpus overview (phase 5).
 ```
 
-No footage is stored in the cloud. The Files API is a temporary upload buffer —
+No footage is stored in the cloud. The Files API is a temporary upload buffer,
 the pipeline deletes every file after each API call.
 
 ---

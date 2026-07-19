@@ -61,8 +61,8 @@ Use **Fast Collections** to generate Smart Collections from keyword lists instan
 ## Backup and NAS
 
 ### NAS workflow
-- Primary: UGREEN iDX NAS (64TB, 10GbE) -- all media lives here
-- Backup: QNAP TS-453BT3 -- mirror of critical data
+- Primary: UGREEN iDX NAS (64TB, 10GbE), all media lives here
+- Backup: QNAP TS-453BT3, mirror of critical data
 - FCP Library on local SSD for speed, media referenced on NAS
 - Thunderbolt 3 direct connection for high-bandwidth transfers
 
@@ -77,11 +77,11 @@ Use **Fast Collections** to generate Smart Collections from keyword lists instan
 For documentary projects working with analog archives, there's a dedicated pipeline
 to semantically analyze footage with Gemini and export colored markers directly to FCP12.
 
-**→ [vhs-ai-pipeline](https://github.com/ismael-joffroy-chandoutis/vhs-ai-pipeline)**
+**→ [vhs-pipeline](../../vhs-pipeline/)**
 
 What it does:
 - Creates 480p 1fps proxies with burned-in timecodes (ffmpeg)
-- Sends footage to Gemini via Files API (temporary -- deleted after each call)
+- Sends footage to Gemini via Files API (temporary, deleted after each call)
 - Two-pass analysis: blind pass (no framework) + targeted pass (your analytical grid)
 - Exports FCPXML with colored markers → import directly into FCP12
 - Generates a Markdown rush log per video

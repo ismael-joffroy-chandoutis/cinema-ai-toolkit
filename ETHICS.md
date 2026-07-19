@@ -1,4 +1,4 @@
-# Ethical Framework — Voice Synthesis in Documentary
+# Ethical Framework: Voice Synthesis in Documentary
 
 ## Principle
 
@@ -22,7 +22,7 @@ Minimum: written consent specifying the production, the use case, and approval p
 
 **2. Declared artistic frame**
 
-The film/work in which the voice synthesis appears must declare its use of AI synthesis — either in the work itself or in its credits/press notes. Voice synthesis presented as authentic unaltered recording is a different category.
+The film/work in which the voice synthesis appears must declare its use of AI synthesis, either in the work itself or in its credits/press notes. Voice synthesis presented as authentic unaltered recording is a different category.
 
 **3. Scope limitation**
 
@@ -57,7 +57,7 @@ Signed: _______________  Date: _______________
 
 **Post-mortem voice reconstruction**: Use of archival recordings to reconstruct a deceased person's voice. Requires estate consent and is subject to local law. Historical documentation framing (e.g., "this is what they would have sounded like") is stronger than presenting synthesis as authentic recording.
 
-**Reconstruction of things actually said**: Using synthesis to reconstruct a line that was recorded but technically unusable (noise, interruption). Lower ethical weight than generating new speech — closer to ADR. Still requires consent.
+**Reconstruction of things actually said**: Using synthesis to reconstruct a line that was recorded but technically unusable (noise, interruption). Lower ethical weight than generating new speech, closer to ADR. Still requires consent.
 
 **Non-consenting subjects**: No use case justifies voice synthesis of a person who has explicitly refused, or who cannot give informed consent.
 

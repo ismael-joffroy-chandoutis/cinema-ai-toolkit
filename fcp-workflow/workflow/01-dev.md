@@ -40,7 +40,7 @@ vs staged sequences" < script.fountain
 
 ### AI-assisted visualization
 - Use image generation (DALL-E, Gemini) to create rough storyboards from descriptions
-- Not for final art -- for communicating shots to crew
+- Not for final art, for communicating shots to crew
 - Claude Code can batch-generate storyboard prompts from a shot list
 
 ### Storyclock

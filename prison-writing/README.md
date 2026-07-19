@@ -1,8 +1,8 @@
-# prison-writing-analyzer
+# Prison Writing Analyzer
 
 OCR + graphological analysis + data mining from photographs of handwritten documents and prison correspondence. Built for documentary research.
 
-Processes HEIC / DNG / JPEG photos of letters, handwritten notes, typed mail, psychiatric reports, court documents — and outputs structured transcriptions, categorizations, and analysis.
+Processes HEIC / DNG / JPEG photos of letters, handwritten notes, typed mail, psychiatric reports, court documents, and outputs structured transcriptions, categorizations, and analysis.
 
 ---
 
@@ -10,11 +10,11 @@ Processes HEIC / DNG / JPEG photos of letters, handwritten notes, typed mail, ps
 
 For each image in a folder (763 images, 400+ in a typical documentary research batch):
 
-1. **Transcription** — Word-for-word OCR with illegibility markers and strikethrough detection
-2. **Document classification** — Handwritten letter, prison email (JPay/CorrLinks), psychiatric report, legal document, personal note, envelope, etc.
-3. **Graphological analysis** — Pressure, slant, letter size, regularity, legibility, free observations
-4. **Data mining** — Persons named, locations, dates mentioned, themes, apparent emotional state
-5. **Consolidated corpus** — Full transcription, categorization table, graphology report, data mining summary
+1. **Transcription**: Word-for-word OCR with illegibility markers and strikethrough detection
+2. **Document classification**: Handwritten letter, prison email (JPay/CorrLinks), psychiatric report, legal document, personal note, envelope, etc.
+3. **Graphological analysis**: Pressure, slant, letter size, regularity, legibility, free observations
+4. **Data mining**: Persons named, locations, dates mentioned, themes, apparent emotional state
+5. **Consolidated corpus**: Full transcription, categorization table, graphology report, data mining summary
 
 Low-confidence images (< 70%) are automatically flagged for recheck with the Pro model.
 
@@ -24,9 +24,9 @@ Low-confidence images (< 70%) are automatically flagged for recheck with the Pro
 
 ### Why not a pure OCR tool?
 
-The goal isn't just text extraction — it's understanding, categorizing, and analyzing simultaneously. Pure OCR tools (Tesseract, etc.) achieve ~64% accuracy on handwriting and can't do multi-task analysis in one pass.
+The goal isn't just text extraction, it's understanding, categorizing, and analyzing simultaneously. Pure OCR tools (Tesseract, etc.) achieve ~64% accuracy on handwriting and can't do multi-task analysis in one pass.
 
-### OCR benchmark — state of the art, March 2026
+### OCR benchmark: state of the art, March 2026
 
 | Model | Handwriting | Complex docs | Cost | Notes |
 |-------|-------------|-------------|------|-------|
@@ -42,15 +42,15 @@ The goal isn't just text extraction — it's understanding, categorizing, and an
 
 **Sources:**
 - [OCR Arena leaderboard](https://huggingface.co/spaces/echo840/ocrbench-leaderboard) (OCRBench v2, Feb 2026)
-- [Mistral OCR vs Gemini — reducto.ai](https://reducto.ai/blog/lvm-ocr-accuracy-mistral-gemini)
-- [Jerry Liu (LlamaIndex)](https://x.com/jerryjliu0/status/1898037050185859395) — Gemini outperforms Mistral on complex document parsing
-- [olmOCR-2 — Allen Institute](https://arxiv.org/html/2510.19817v1)
+- [Mistral OCR vs Gemini, reducto.ai](https://reducto.ai/blog/lvm-ocr-accuracy-mistral-gemini)
+- [Jerry Liu (LlamaIndex)](https://x.com/jerryjliu0/status/1898037050185859395): Gemini outperforms Mistral on complex document parsing
+- [olmOCR-2, Allen Institute](https://arxiv.org/html/2510.19817v1)
 - [PaddleOCR-VL-1.5](https://ernie.baidu.com/blog/posts/paddleocr-vl-1-5/)
 
 ### Two-pass architecture
 
-- **Pass 1 — Gemini 3 Flash**: Fast, cheap, ~90% handwriting → processes all images
-- **Pass 2 — Gemini 2.5 Pro**: Only low-confidence images (< 70%) → targeted recheck
+- **Pass 1 (Gemini 3 Flash)**: Fast, cheap, ~90% handwriting → processes all images
+- **Pass 2 (Gemini 2.5 Pro)**: Only low-confidence images (< 70%) → targeted recheck
 
 Estimated cost for 763 images: **$2–5 total**.
 
@@ -60,7 +60,7 @@ Estimated cost for 763 images: **$2–5 total**.
 
 ```bash
 pip install google-genai  # Python 3.10
-# sips is macOS-native — no install needed for HEIC/DNG conversion
+# sips is macOS-native, no install needed for HEIC/DNG conversion
 ```
 
 API key: `GEMINI_API_KEY` in environment or `~/.claude/secrets/opc-skills.env`
